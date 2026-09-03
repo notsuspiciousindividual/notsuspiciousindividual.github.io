@@ -1,0 +1,16 @@
+{
+  "name": "notsuspiciousindividual-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Terminal-flavored personal blog. Markdown in, static site out.",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node build.js && npx --yes serve docs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.9.0",
+    "markdown-it": "^14.1.0"
+  }
+}
